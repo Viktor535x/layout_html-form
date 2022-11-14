@@ -4,14 +4,180 @@
     <meta charset="UTF-8">
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, user-scalable=no,
+      initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+    <form action="/action_page.php" autocomplete ="off">
+      <fieldset class="set">
+        <legend>Personal information</legend>
+        <label class="labinp">
+          Surname:
+          <input
+            type="text"
+            id="fname"
+            name="camelCase"
+            required
+          >
+        </label>
+        <label class="labinp">
+          Name:
+          <input
+            type="text"
+            id="lname"
+            name="camelCase"
+            required
+          >
+        </label>
+        <label class="labinp">
+          How old are You?
+          <input
+            type="number"
+            id="quantity"
+            name="camelCase"
+            min="1" max="100"
+            step="1" value="12"
+            autocomplete ="off"
+          >
+        </label>
+        <label class="labinp">
+          Full date of birth:
+          <input
+            type="date"
+            id="birthday"
+            name="camelCase"
+          >
+        </label>
+        <label class="lab">
+          I accept the term of the agreement
+          <input type="checkbox"
+            id="confirmation"
+            name="camelCase"
+            value="agree"
+          >
+        </label>
+      </fieldset>
+      <fieldset class="set">
+        <legend>Registration</legend>
+        <label class="labinp">
+          E-mail:
+          <input
+            type="email"
+            id="email"
+            name="camelCase"
+            placeholder="email@example.com"
+            required
+          >
+        </label>
+        <label class="lab">
+          Password:
+          <input
+            type="password"
+            id="Password"
+            name="camelCase"
+            required
+          >
+        </label>
+      </fieldset>
+      <fieldset class="set">
+        <legend>An interesting fact about you!
+        </legend>
+        <u1 class="labinp">
+          <label for="email">
+            Do you love cats?
+          </label>
+          <input
+            type="radio"
+            name="camelCase"
+            value="y/n"
+          >
+          <label for="email">
+            Yes
+          </label>
+          <input
+            type="radio"
+            name="camelCase"
+            value="y/n"
+          >
+          <label for="email">
+            No
+          </label>
+        </u1>
+        <label class="labinp">
+          What is your favorite color?
+          <input
+            type="color"
+            id="favcolor"
+            name="camelCase"
+            value="black"
+          >
+        </label>
+        <label class="labinp">
+          What time do you go to bed?
+          <input
+            type="time"
+            id="day"
+            name="camelCase"
+          >
+        </label>
+        <label class="labinp">
+          What are your favorite brand of cars?
+          <select
+            id="cars"
+            name="camelCase"
+            size="4"
+            multiple>
+            <option value="volvo">BMW</option>
+            <option value="saab">Audi</option>
+            <option value="fiat">Lada
+            </option>
+          </select>
+        </label>
+        <label class="lab">
+          How do you rate our work?
+          <input
+            type="range"
+            id="rate"
+            name="camelCase"
+            min="100"
+            max="100"
+          >
+        </label>
+      </fieldset>
+      <fieldset class="set">
+        <legend>
+          Additional info:
+        </legend>
+        <label class="labinp">
+          Comments:
+          <textarea
+            name="camelCase"
+            rows="2"
+            cols="20"
+            maxlength="15"
+            minlength="1">
+          </textarea>
+        </label>
+        <label class="lab">
+          Would you recommend us?
+          <select
+            id="avt"
+            name="camelCase">
+            <option value="volvo">yes</option>
+            <option value="saab">no</option>
+          </select>
+        </label>
+      </fieldset>
+      <input
+        type="submit"
+        value="Submit"
+      >
+    </form>
   </body>
 </html>
+

@@ -1,1 +1,12 @@
-/* styles go here */
+.set {
+  margin-bottom: 20px;
+}
+
+.labinp {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.lab {
+  display: block;
+}
