@@ -14,9 +14,9 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form action="/action_page.php" autocomplete ="off">
-      <fieldset class="set">
+      <fieldset class="InsideIndent">
         <legend>Personal information</legend>
-        <label class="labinp">
+        <label class="inside">
           Surname:
           <input
             type="text"
@@ -25,7 +25,7 @@
             required
           >
         </label>
-        <label class="labinp">
+        <label class="inside">
           Name:
           <input
             type="text"
@@ -34,7 +34,7 @@
             required
           >
         </label>
-        <label class="labinp">
+        <label class="inside">
           How old are You?
           <input
             type="number"
@@ -45,7 +45,7 @@
             autocomplete ="off"
           >
         </label>
-        <label class="labinp">
+        <label class="inside">
           Full date of birth:
           <input
             type="date"
@@ -53,7 +53,7 @@
             name="camelCase"
           >
         </label>
-        <label class="lab">
+        <label class="BottomIndent">
           I accept the term of the agreement
           <input type="checkbox"
             id="confirmation"
@@ -62,9 +62,9 @@
           >
         </label>
       </fieldset>
-      <fieldset class="set">
+      <fieldset class="InsideIndent">
         <legend>Registration</legend>
-        <label class="labinp">
+        <label class="inside">
           E-mail:
           <input
             type="email"
@@ -74,7 +74,7 @@
             required
           >
         </label>
-        <label class="lab">
+        <label class="BottomIndent">
           Password:
           <input
             type="password"
@@ -84,10 +84,10 @@
           >
         </label>
       </fieldset>
-      <fieldset class="set">
+      <fieldset class="InsideIndent">
         <legend>An interesting fact about you!
         </legend>
-        <u1 class="labinp">
+        <u1 class="inside">
           <label for="email">
             Do you love cats?
           </label>
@@ -108,7 +108,7 @@
             No
           </label>
         </u1>
-        <label class="labinp">
+        <label class="inside">
           What is your favorite color?
           <input
             type="color"
@@ -117,7 +117,7 @@
             value="black"
           >
         </label>
-        <label class="labinp">
+        <label class="inside">
           What time do you go to bed?
           <input
             type="time"
@@ -125,20 +125,20 @@
             name="camelCase"
           >
         </label>
-        <label class="labinp">
+        <label class="inside">
           What are your favorite brand of cars?
           <select
             id="cars"
             name="camelCase"
             size="4"
-            multiple>
+            multiple
+          >
             <option value="volvo">BMW</option>
             <option value="saab">Audi</option>
-            <option value="fiat">Lada
-            </option>
+            <option value="fiat">Lada</option>
           </select>
         </label>
-        <label class="lab">
+        <label class="BottomIndent">
           How do you rate our work?
           <input
             type="range"
@@ -149,25 +149,26 @@
           >
         </label>
       </fieldset>
-      <fieldset class="set">
+      <fieldset class="InsideIndent">
         <legend>
           Additional info:
         </legend>
-        <label class="labinp">
+        <label class="inside">
           Comments:
           <textarea
             name="camelCase"
             rows="2"
             cols="20"
             maxlength="15"
-            minlength="1">
-          </textarea>
+            minlength="1"
+         ></textarea>
         </label>
-        <label class="lab">
+        <label class="BottomIndent">
           Would you recommend us?
           <select
             id="avt"
-            name="camelCase">
+            name="camelCase"
+          >
             <option value="volvo">yes</option>
             <option value="saab">no</option>
           </select>

@@ -1,12 +1,12 @@
-.set {
+.InsideIndent {
   margin-bottom: 20px;
 }
 
-.labinp {
+.inside {
   display: block;
   margin-bottom: 10px;
 }
 
-.lab {
+.BottomIndent {
   display: block;
 }
