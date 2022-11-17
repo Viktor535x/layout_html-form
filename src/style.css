@@ -1,12 +1,12 @@
-.InsideIndent {
+.fieldset {
   margin-bottom: 20px;
 }
 
-.inside {
+.label {
   display: block;
   margin-bottom: 10px;
 }
 
-.BottomIndent {
+.Bottomlabel {
   display: block;
 }
