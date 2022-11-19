@@ -7,6 +7,6 @@
   margin-bottom: 10px;
 }
 
-.Bottomlabel {
-  display: block;
+.label:last-child {
+  margin-bottom: 0;
 }
